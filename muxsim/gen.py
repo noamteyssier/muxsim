@@ -93,6 +93,5 @@ class MuxSim:
                 if self.dual_assignments[i] != -1:
                     subfreq[self.dual_assignments[i]] = signal * background
                 subfreq /= subfreq.sum()
-                print(subfreq.sum())
             umi[i] = np.random.multinomial(self.umi_sums[i], subfreq)
         return umi
