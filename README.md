@@ -71,10 +71,13 @@ $$
 This allows us to then set the the signal guides at a rate $(r)$ above the background with the following expression:
 
 $$
-t_{ij} = \left{\begin{align}
+t_{ij} = 
+\bigl{
+\begin{align}
 &r,\ j \in \mathbb{C}_i \\
 &1,\ j \not\in \mathbb{C}_i
-\end{align}\right}
+\end{align}
+\bigr}
 $$
 
 Which can then be turned into the frequency matrix:
