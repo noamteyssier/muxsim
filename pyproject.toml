@@ -1,0 +1,26 @@
+[project]
+name = "muxsim"
+version = "0.1.1"
+description = "A tool to simulate cell/guide matrices"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Noam Teyssier" }]
+dependencies = [
+  "matplotlib>=3.9.2",
+  "numpy>=2.1.2",
+  "pandas>=2.2.3",
+  "scipy>=1.14.1",
+  "seaborn>=0.13.2",
+  "tqdm>=4.66.5",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+    "ruff>=0.6.9",
+]
