@@ -14,7 +14,8 @@ def test_init():
     assert ms.num_guides == NUM_GUIDES
     assert ms.umi_sums.size == NUM_CELLS
     assert ms.moi.size == NUM_CELLS
-    assert len(ms.assignments)== NUM_CELLS
+    assert len(ms.assignments) == NUM_CELLS
+
 
 def test_gen():
     ms = MuxSim(num_cells=1000, num_guides=100)

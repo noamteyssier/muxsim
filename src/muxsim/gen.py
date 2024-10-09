@@ -35,7 +35,8 @@ class MuxSim:
     def _gen_assignments(self) -> list:
         """Generate assignments for each cell/guide pair."""
         assignment = [
-            np.random.choice(self.num_guides, self.moi[i]) for i in range(self.num_cells)
+            np.random.choice(self.num_guides, self.moi[i])
+            for i in range(self.num_cells)
         ]
         return assignment
 
