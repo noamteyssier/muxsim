@@ -55,7 +55,7 @@ $$
 \sum_{j=1}^{M}{f_{ij}} = 1
 $$
 
-The background frequencies are assumed to be equiprobable (where $(\forall u,v \in M)(f_{iu} = f_{iv})$), except for signal guides - which would be a scaled by some value $(r)$. The number of signal guides is chosen using a Poisson prior to simulate situations where the expected multiplicity of infection (MOI) can change:
+The background frequencies are assumed to be equiprobable (where $`(\forall u,v \in M)(f_{iu} = f_{iv})`$ ), except for signal guides - which would be a scaled by some value $(r)$. The number of signal guides is chosen using a Poisson prior to simulate situations where the expected multiplicity of infection (MOI) can change:
 
 $$
 \mathbb{I}_i \sim \text{Poisson}(\lambda)
