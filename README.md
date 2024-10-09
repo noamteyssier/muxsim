@@ -72,12 +72,10 @@ This allows us to then set the the signal guides at a rate $(r)$ above the backg
 
 $$
 t_{ij} = 
-\bigl{
-\begin{align}
-&r,\ j \in \mathbb{C}_i \\
-&1,\ j \not\in \mathbb{C}_i
-\end{align}
-\bigr}
+\begin{cases}
+r,& \text{if } j \in \mathbb{C}_i \\
+1,& \text{if } j \not\in \mathbb{C}_i
+\end{cases}
 $$
 
 Which can then be turned into the frequency matrix:
